@@ -15,6 +15,10 @@ h1, h3, ul, th{
     color: black;
 }
 
+.section-title {
+	padding-bottom: 5%;
+}
+
 p, li, td{
     color: black;
 }
