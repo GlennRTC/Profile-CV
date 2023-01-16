@@ -15,20 +15,53 @@ h1, h3, ul, th{
     color: black;
 }
 
-.section-title {
+.title-sec{
+	text-shadow: 2px 2px 2px rgb(41 41 41 / 15%);
+    font-size: 2.5em;
+    color: #333338;
+    font-weight: 700;
+}
+
+/*.section-title {
 	padding-bottom: 5%;
+}*/
+
+.card-body {
+	-webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.service-in .card h5.card-title {
+    font-size: 1.1em;
+    color: #fff;
+	padding: 2em 1em;
+    border: none;
+    transition: none;
+    background: rgba(243, 244, 245, 0.17);
 }
 
 p, li, td{
     color: black;
 }
 
+.imgprofile {
+	padding: 10px;
+	width: 100%;
+	height: auto;
+}
+
 img {
 	padding: 10px;
 }
 
-#ProfileIntro, #Education, #Work, #Skills, #Contact {
+/*#ProfileIntro, #Education, #Skills, #Contact {
     padding: 3% 10% 7% 3%;
+}*/
+
+.Work {
+	background-image: url("../images/computer-bg.jpg");
 }
 
 /* ------ Horizontal Line Styles ------ */
